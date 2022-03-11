@@ -11,11 +11,11 @@ def schedule_issue():
     x, z = 0, 0
     while True:
         time.sleep(2)
-        while x < 5:
+        while x < 12:
             time.sleep(2)
             issue_invoices()
             x = x + 1
-        time.sleep(60)
+        time.sleep(10800)
 
 
 def issue_invoices():
