@@ -16,6 +16,7 @@ def schedule_issue():
             issue_invoices()
             x = x + 1
         time.sleep(10800)
+        x = 0
 
 
 def issue_invoices():
